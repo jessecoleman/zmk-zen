@@ -31,35 +31,35 @@
    &mt LGUI DEL &mt LCTRL BSPC &mt LSHFT TAB   &mt RSHFT RET &lt NAV SPACE &kp RALT
                         >;
                 };
-//                 lower_layer {
-//                         label = "NUM";
-// // -----------------------------------------------------------------------------------------
-// // |  TAB |  1  |  2  |  3  |  4  |  5  |   |  6  |  7  |  8  |  9  |  0  | BKSP |
-// // | BTCLR| BT1 | BT2 | BT3 | BT4 | BT5 |   | LFT | DWN |  UP | RGT |     |      |
-// // | SHFT |     |     |     |     |     |   |     |     |     |     |     |      |
-// //                    | GUI |     | SPC |   | ENT |     | ALT |
-//                         
-//                         bindings = <
-//    &trans  &kp EXCL  &kp AT    &kp HASH &kp DLLR  &kp LPRN   &kp RPRN  &kp N7 &kp N8 &kp N9 &trans &trans
-//    &trans  &kp PRCNT &kp CARET &kp AMPS &kp ASTRK &kp LBRC   &kp RBRC  &kp N4 &kp N5 &kp N6 &trans &trans
-//    &trans  &trans    &trans    &trans   &trans    &kp LBKT   &kp RBKT  &kp N1 &kp N2 &kp N3 &trans &trans
-//                                &trans   &trans    &kp trans  &kp trans &kp N0 &kp trans
-//                         >;
-//                  };
-// 
-//                 raise_layer {
-//                         label = "NAV";
-// // -----------------------------------------------------------------------------------------
-// // |  TAB |  !  |  @  |  #  |  $  |  %  |   |  ^  |  &  |  *  |  (  |  )  | BKSP |
-// // | CTRL |     |     |     |     |     |   |  -  |  =  |  [  |  ]  |  \  |  `   |
-// // | SHFT |     |     |     |     |     |   |  _  |  +  |  {  |  }  | "|" |  ~   |
-// //                    | GUI |     | SPC |   | ENT |     | ALT |
-//                        bindings = <
-//    &trans &trans &trans &trans &trans &trans    &trans &kp HOME &kp UP   &kp END   &kp PG_UP &trans
-//    &trans &trans &trans &trans &trans &trans    &trans &kp LEFT &kp DOWN &kp RIGHT &kp PG_DN &trans
-//    &trans &trans &trans &trans &trans &trans    &trans &trans   &trans   &trans    &trans   &trans
-//                         &trans &trans &trans    &trans &trans   &trans
-//                         >;
-//                 };
+                lower_layer {
+                        label = "NUM";
+// -----------------------------------------------------------------------------------------
+// |  TAB |  1  |  2  |  3  |  4  |  5  |   |  6  |  7  |  8  |  9  |  0  | BKSP |
+// | BTCLR| BT1 | BT2 | BT3 | BT4 | BT5 |   | LFT | DWN |  UP | RGT |     |      |
+// | SHFT |     |     |     |     |     |   |     |     |     |     |     |      |
+//                    | GUI |     | SPC |   | ENT |     | ALT |
+                        
+                        bindings = <
+   &trans  &kp EXCL  &kp AT    &kp HASH &kp DLLR  &kp LPRN   &kp RPRN  &kp N7 &kp N8 &kp N9 &trans &trans
+   &trans  &kp PRCNT &kp CARET &kp AMPS &kp ASTRK &kp LBRC   &kp RBRC  &kp N4 &kp N5 &kp N6 &trans &trans
+   &trans  &trans    &trans    &trans   &trans    &kp LBKT   &kp RBKT  &kp N1 &kp N2 &kp N3 &trans &trans
+                               &trans   &trans    &trans  &trans &kp N0 &trans
+                        >;
+                 };
+
+                raise_layer {
+                        label = "NAV";
+// -----------------------------------------------------------------------------------------
+// |  TAB |  !  |  @  |  #  |  $  |  %  |   |  ^  |  &  |  *  |  (  |  )  | BKSP |
+// | CTRL |     |     |     |     |     |   |  -  |  =  |  [  |  ]  |  \  |  `   |
+// | SHFT |     |     |     |     |     |   |  _  |  +  |  {  |  }  | "|" |  ~   |
+//                    | GUI |     | SPC |   | ENT |     | ALT |
+                       bindings = <
+   &trans &trans &trans &trans &trans &trans    &trans &kp HOME &kp UP   &kp END   &kp PG_UP &trans
+   &trans &trans &trans &trans &trans &trans    &trans &kp LEFT &kp DOWN &kp RIGHT &kp PG_DN &trans
+   &trans &trans &trans &trans &trans &trans    &trans &trans   &trans   &trans    &trans   &trans
+                        &trans &trans &trans    &trans &trans   &trans
+                        >;
+                };
         };
 };
